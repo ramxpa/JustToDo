@@ -22,7 +22,6 @@ App.TasksView = Backbone.View.extend ({
 
       // call a function
       // json stringify
-      // id it
       // look at localstorage router
       var myPost = $(this.el).val();
       var contents = $(".tasklist").append("<li>" + myPost + "</li>").html();
