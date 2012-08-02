@@ -5,7 +5,7 @@ App = {
 }
 
 
-  /*
+/*
    localStorage.setItem('foo', 'bar');
    localStorage.getItem('foo');
 
@@ -42,8 +42,7 @@ App.TasksView = Backbone.View.extend ({
       console.log('Enter');
 
       var myPost = $(this.el).val();
-      var contents = $(".tasklist").append("<li>" + myPost + "</li>").html();
-      localStorage.setItem('myTasks', contents);
+      console.log('My post', myPost);
     }
   }
 
